@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Webpage with Images & Videos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f7f7f7;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 25px;
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        article {
+            background: white;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+        }
+
+        img,
+        video {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Semantic Webpage</h1>
+        <p>Featuring Images, Videos & Long Notes</p>
+    </header>
+
+    <nav>
+        <a href="#cr7">Cristiano Ronaldo</a>
+        <a href="#city">Futuristic City</a>
+        <a href="#bts">BTS</a>
+    </nav>
+
+    <section>
+
+        <!-- Cristiano Ronaldo -->
+        <article id="cr7">
+            <h2>Cristiano Ronaldo</h2>
+
+            <!-- Image -->
+            <img src="https://scroll.in/field/926568/i-will-always-give-my-best-cristiano-ronaldo-wants-to-win-more-trophies-with-portugal"
+                alt="Cristiano Ronaldo">
+
+            <!-- Video (4–5 seconds clip) -->
+            <video controls>
+                <source src="https://cdn.pixabay.com/video/2022/11/08/138966-770633712_large.mp4" type="video/mp4">
+            </video>
+
+            <p><strong>Note:</strong> Cristiano Ronaldo is more than a footballer—he is a global symbol of dedication,
+                discipline, and self-belief. Every shot he takes represents years of training, sacrifice, and the
+                mindset of never giving up. His journey from a small city in Madeira to becoming one of the greatest
+                players in football history inspires millions to dream bigger, work harder, and believe that success is
+                earned through passion and persistence.</p>
+        </article>
+
+        <!-- Futuristic City -->
+        <article id="city">
+            <h2>Futuristic City</h2>
+
+            <!-- Image -->
+            <img src="https://www.pexels.com/search/city/" alt="Futuristic City">
+
+            <!-- Video -->
+            <video controls>
+                <source src="https://cdn.pixabay.com/video/2023/02/23/153884-803073987_large.mp4" type="video/mp4">
+            </video>
+
+            <p><strong>Note:</strong> A futuristic city represents the unlimited potential of human imagination. Towers
+                reaching the sky, glowing lights, and advanced technology show how far humanity can go when innovation
+                and creativity come together. These cities feel alive—full of motion, dreams, challenges, and endless
+                opportunities. They remind us that the future is not something we wait for; it is something we build,
+                step by step, with bold ideas and powerful ambition.</p>
+        </article>
+
+        <!-- BTS Members -->
+        <article id="bts">
+            <h2>BTS (Members)</h2>
+
+            <!-- Image -->
+            <img src="https://people.com/music/bts-members-everything-to-know/" alt="BTS Members">
+
+            <!-- Video -->
+            <video controls>
+                <source src="https://cdn.pixabay.com/video/2019/05/23/23989-340555458_large.mp4" type="video/mp4">
+            </video>
+
+            <p><strong>Note:</strong> BTS is more than a music group—they are a cultural movement that touches hearts
+                across the world. Their songs carry messages of unity, confidence, and self-love. Each performance
+                blends passion, talent, and emotion, creating a connection that feels personal to every fan. Whether
+                they sing, dance, or speak, BTS shows the world that art has the power to heal, inspire, and bring
+                people together beyond borders and languages.</p>
+        </article>
+
+    </section>
+
+    <footer>
+        <p>© 2025 My Semantic Webpage | Images + Videos + Semantic HTML</p>
+    </footer>
+
+</body>
+
+</html>
